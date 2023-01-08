@@ -1,12 +1,18 @@
 * {
   font-family: "Work Sans", sans-serif;
 }
+.failures ul {
+  list-style: none;
+}
+.failures ul li:before {
+  content: "✓";
+}
 
 /* header style */
 .header {
-  background-image: url(/Assignment/images/banner/banner2.png);
+  display: flex;
+  background-image: url(../images/banner/banner2.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   text-align: right;
 }
 .header-details {
@@ -14,18 +20,17 @@
   margin: 0 150px;
 }
 .header-title {
-  padding: 200px 0px 0px 500px;
   font-weight: 700;
   font-size: 65px;
-  line-height: 76px;
-  
+  margin-top: 200px;
+  margin-left: 500px;
+  margin-bottom: 20px;
 }
 .header-description {
-  padding-left: 500px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
-  
+  margin-left: 500px;
+  margin-bottom: 35px;
 }
 .btn-header {
   color: #ffffff;
@@ -36,9 +41,171 @@
   height: 60px;
   border-radius: 5px;
   background-color: #fd6e0a;
+  margin-bottom: 150px;
+}
 
-  width: 160px;
-  height: 55px;
-  left: 1210px;
-  top: 587px;
+.failures-details {
+  display: flex;
+  align-items: center;
+  margin: 10px 150px;
+}
+.failures-title {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.failures-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+/* My Plans Style */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.my-plan {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.plan-container {
+  display: flex;
+  gap: 20px;
+}
+.plans {
+  background: #ffffff;
+  padding: 30px;
+}
+.plans-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.plans-description {
+  color: #757575;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* favorite quotes style */
+
+.favorite-quotes {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.favorite-quotes-title {
+  /* text-align: center; */
+  margin-bottom: 75px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.imge-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.quotes-container {
+  display: flex;
+  gap: 20px;
+  min-width: 100px;
+}
+.quotes {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 20px;
+}
+.quotes-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.quotes-description {
+  color: #757575;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* Positive Mindset style */
+.positive-mindset {
+  max-width: 1140px;
+  background-repeat: no-repeat;
+  margin: 100px auto;
+  background-image: url(../images/watch.png);
+}
+.background-image {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+.text-left {
+  text-align: left;
+  position: absolute;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  top: 40px;
+  left: 100px;
+}
+.btn-call-now {
+  color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-bottom: 150px;
+}
+
+/* Future Style */
+.future {
+  display: flex;
+  gap: 200px;
+  background: #151414;
+  padding: 130px 200px;
+}
+
+.future input {
+  margin-bottom: 30px;
+  border: 1px;
+  width: 200px;
+  padding: 15px 25px;
+  background: #151414;
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 5px;
+}
+.future-details {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.section-title-future {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+.section-title-subscribe {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
 }
